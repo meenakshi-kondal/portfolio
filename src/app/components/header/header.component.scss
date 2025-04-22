@@ -1,0 +1,17 @@
+.main-heading {
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .heading {
+        display: flex;
+        gap: 100px;
+        font-weight: 700;
+
+        span {
+            color: var(--color-text);
+            font-size: var(--text-medium)
+        }
+    }
+}
