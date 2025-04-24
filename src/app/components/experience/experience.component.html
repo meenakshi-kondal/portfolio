@@ -1,0 +1,19 @@
+<div class="content-container experience-content">
+    <div class="experience-title">EXPERIENCE</div>
+
+    <div class="experience-tab">
+
+        <div *ngFor="let experiences of experienceData" class="experience-card"  >
+            <div class="circle"></div>
+            <div class="card-layout">
+                <img alt="company_logo" [src]="experiences.image" width="100">
+                <div class="content">
+                    <div class="card-name">{{experiences.name}}</div>
+                    <div class="card-posiiton">{{experiences.position}}</div>
+                    <div class="card-duration">{{experiences.duration}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

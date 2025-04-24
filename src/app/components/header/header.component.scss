@@ -1,17 +1,90 @@
-.main-heading {
-    height:10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: var(--color-background);
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
 
-    .heading {
-        display: flex;
-        gap: 100px;
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+      position: relative;
+
+      .logo h1 {
         font-weight: 700;
+        font-size: 30px;
+        font-family: 'Audiowide', cursive;
+        background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+      }
 
-        span {
+      .burger {
+        display: none;
+        font-size: 28px;
+        cursor: pointer;
+        color: var(--color-primary);
+      }
+
+      .nav {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+
+        .list {
+          list-style: none;
+          display: flex;
+          gap: 80px;
+
+          .link {
+            font-size: var(--text-medium);
+            text-decoration: none;
             color: var(--color-text);
-            font-size: var(--text-medium)
+            font-weight: 600;
+          }
         }
+
+        // Default hide on mobile
+        @media (max-width: 768px) {
+          display: none;
+          position: absolute;
+          top: 70px;
+          left: 0;
+          width: 100%;
+          background-color: var(--color-background);
+          z-index: 999;
+
+          .list {
+            flex-direction: column;
+            align-items: center;
+            padding: 20px 0;
+            gap: 15px;
+          }
+
+          &.active {
+            display: block !important;
+          }
+        }
+      }
+
+      @media (max-width: 768px) {
+        .burger {
+          display: block;
+        }
+
+        // Hide nav by default, show with .active
+        .nav {
+          display: none;
+        }
+      }
     }
+  }
 }

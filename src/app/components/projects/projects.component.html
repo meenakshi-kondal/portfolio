@@ -1,0 +1,27 @@
+<div class="content-container project-content">
+	<div class="project-title">PROJECTS</div>
+
+	<div class="project-tab">
+		<div *ngFor="let project of projectData" class="project-card">
+			<div class="card-bar"></div>
+			<div class="card-info">
+				<div class="card-heading">{{project.name}}</div>
+				<div class="crad-description">{{project.description}}
+					<span class="card-content" *ngIf="!project.showFeatures" (click)="project.showFeatures = true">Read
+						More</span>
+				</div>
+				<div class="card-features" *ngIf="project.showFeatures">
+					<ul>
+						<li *ngFor="let feature of project.features">
+							<span class="feature-name">{{feature.name}}</span> :
+							<span class="feature-key">{{feature.keypoints}}</span>
+						</li>
+					</ul>
+					<span class="card-content" *ngIf="project.showFeatures" (click)="project.showFeatures = false">
+						Read Less
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

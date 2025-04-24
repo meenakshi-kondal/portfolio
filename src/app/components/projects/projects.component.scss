@@ -1,0 +1,80 @@
+.project-content {
+	background-image: linear-gradient(180deg, #252428, #29282c00);
+	background-color: #F1C9611A;
+
+	.project-title {
+		padding: 10px 0;
+		text-align: center;
+		font-size: var(--text-title);
+		color: var(--color-secondary);
+	}
+
+	.project-card {
+		display: flex;
+		margin: 20px 0;
+		overflow: hidden;
+		color: var(--color-muted);
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+		.card-bar {
+			border-top-left-radius: 12px;
+			border-bottom-left-radius: 12px;
+			width: 6px;
+			background: var(--color-secondary)
+		}
+
+		.card-info {
+			padding: 15px;
+			flex: 1;
+
+			.card-heading {
+				color: var(--color-secondary);
+				font-weight: 700;
+				font-size: var(--text-sub-heading)
+			}
+
+			.crad-description {
+				margin-top: 10px;
+				font-size: var(--text-medium);
+				line-height: 1.6;
+
+
+			}
+
+			.card-features {
+				li {
+					line-height: 1.8;
+
+					.feature-name {
+						font-weight: 700;
+					}
+				}
+
+
+			}
+		}
+	}
+
+	.project-card:hover {
+		animation: gradientMove 4s linear infinite;
+		background-size: 200% 200%;
+		background-image: linear-gradient(180deg, #252428, rgba(41, 40, 44, 0));
+		background-color: #fb718514;
+	}
+
+	.card-content {
+		color: var(--color-primary);
+		font-size: var(--text-small);
+		cursor: pointer;
+	}
+}
+
+@keyframes gradientMove {
+	0% {
+		background-position: 100% 100%;
+	}
+
+	100% {
+		background-position: 0% 0%;
+	}
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "WisewayTec",
+        "position": "Full Stack Developer",
+        "duration": "April 2024 - Jan 2025",
+        "image": "/assets/images/wiseway.png"
+    },
+    {
+        "name": "Relinns Technologies",
+        "position": "MEAN Stack Developer",
+        "duration": "Oct 2022 - April 2024",
+        "image": "/assets/images/relinns.png"
+    },
+    {
+        "name": "Relinns Technologies",
+        "position": "Software Developer Intern",
+        "duration": "March 2022 - Sep 2022",
+        "image": "/assets/images/relinns.png"
+    }
+]

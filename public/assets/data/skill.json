@@ -15,12 +15,8 @@
                 "image": "/assets/images/bootstrap.png"
             },
             {
-                "name": "Javascript",
+                "name": "Javascript/Typescript",
                 "image": "/assets/images/javascript.png"
-            },
-            {
-                "name": "Typescript",
-                "image": "/assets/images/typescript.png"
             },
             {
                 "name": "Angular",
@@ -36,29 +32,29 @@
         "name": "Backend",
         "technology": [
             {
-                "name": "node",
+                "name": "node.js",
                 "image": "/assets/images/node.png"
             },
             {
-                "name": "Socket",
+                "name": "Socket.io",
                 "image": "/assets/images/socket.png"
             },
             {
-                "name": "Express",
+                "name": "Express.js",
                 "image": "/assets/images/express.png"
             },
             {
-                "name": "APIs",
+                "name": "REST APIs",
                 "image": "/assets/images/apis.png"
             },
             {
-                "name": "Rozar",
-                "image": "/assets/images/rozar.png"
+                "name": "Typescript",
+                "image": "/assets/images/typescript.png"
             }
         ]
     },
     {
-        "name": "Database",
+        "name": "Databases",
         "technology": [
             {
                 "name": "MogoDB",
@@ -71,16 +67,25 @@
         ]
     },
     {
-        "name": "Miscellaneous",
+        "name": "DevOps & Cloud",
         "technology": [
             {
-                "name": "AWS",
+                "name": "AWS EC2",
                 "image": "/assets/images/aws.png"
             },
             {
-                "name": "NGINX",
-                "image": "/assets/images/nginx.png"
+                "name": "S3",
+                "image": "/assets/images/aws.png"
             },
+            {
+                "name": "Nginx (Reverse Proxies & Load Balancer)",
+                "image": "/assets/images/nginx.png"
+            }
+        ]
+    },
+    {
+        "name": "Tools",
+        "technology": [
             {
                 "name": "Git Hub",
                 "image": "/assets/images/github.png"
@@ -88,6 +93,14 @@
             {
                 "name": "Git Lab",
                 "image": "/assets/images/gitlab.png"
+            },
+            {
+                "name": "Postman",
+                "image": "/assets/images/postman.png"
+            },
+            {
+                "name": "Vs Code",
+                "image": "/assets/images/vscode.png"
             }
         ]
     }

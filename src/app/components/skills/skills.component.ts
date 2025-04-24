@@ -10,6 +10,7 @@ import { SKILL_DATA } from '../../interfaces/dataInterface';
 })
 export class SkillsComponent {
 skillData:SKILL_DATA[] =[];
+
 constructor(private dataService: DataService) {}
 
   ngOnInit() {

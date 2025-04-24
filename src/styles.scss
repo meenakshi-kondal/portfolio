@@ -2,10 +2,11 @@
   --color-background: #1e1e1e;
   --color-surface: #2e2e2e;
   --color-primary: #f1bb30c4;
-  --color-secondary: #fb7185;
+  --color-secondary: #fb71859c;
   --color-text: #f3f4f6;
   --color-muted: #9ca3af;
   --text-medium: 18px;
+  --text-small: 14px;
   --text-large: 70px;
   --text-heading:75px;
   --text-title:45px;
@@ -19,4 +20,11 @@ body {
 
 .content-container {
   padding: 30px 50px;
+}
+
+// mobile responsive
+@media (max-width: 768px) {
+  .content-container {
+    padding: 10px 20px !important;
+  }
 }

@@ -2,18 +2,18 @@
 
 
 	<div class="skill-heading">
-		Skills & Technologies
+		SKILLS
 	</div>
 
 	<div class="skill-tab">
 		<div *ngFor="let skills of skillData" class="skill-card">
-			<div class="gold-patch"></div>
+			<div class="card-patch"></div>
 			<div class="card-heading">{{skills.name}}</div>
 
 			<div class="tech-card">
 				<div *ngFor="let tech of skills.technology" class="skill-name">
 					<img [src]="tech.image" alt="skill_logo" width="20">
-					<div>
+					<div class="tech-name">
 						{{tech.name}}
 					</div>
 				</div>

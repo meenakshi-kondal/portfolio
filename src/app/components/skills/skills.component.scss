@@ -6,7 +6,7 @@
 }
 
 .skill-tab {
-	margin-top: 30px;
+	margin: 30px 0;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: 50px;
@@ -20,7 +20,7 @@
 		border-width: 1px;
 
 
-		.gold-patch {
+		.card-patch {
 			width: 100%;
 			height: 6px;
 			background-color: var(--color-primary);
@@ -43,13 +43,20 @@
 			justify-content: center;
 
 			.skill-name {
-
+				display: flex;
 				color:var(--color-muted);
 				margin: 12px;
 				padding: 15px;
 				border: 1px solid #9ca3af5c;
 				border-radius: 20px;
 				font-size: var(--text-medium);
+				img {
+					margin-right: 5px;
+				}
+				.tech-name {
+					display: flex;
+					align-items: center;
+				}
 			}
 		}
 	}
@@ -58,4 +65,12 @@
 .skill-card:hover {
 	transform: translateY(-5px);
 	box-shadow: 0 8px 16px rgba(251, 191, 36, 0.3);
+}
+
+// mobile responsive
+@media (max-width: 768px) {
+	.skill-tab{
+		grid-template-columns: 1fr !important; 
+		margin: 20px 0 !important;
+	}
 }

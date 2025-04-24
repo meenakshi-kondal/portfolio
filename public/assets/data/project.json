@@ -1,0 +1,174 @@
+[
+	{
+		"name": "Authentic Drilling",
+		"image": "",
+		"description": "Authentic Drilling is a comprehensive drilling management platform designed for a US-based client. I led the complete development lifecycle and played a key role in both frontend and backend implementation. The system includes a fully functional admin panel that allows administrators to manage employees, equipment, projects, and internal operations efficiently.",
+		"features": [
+			{
+				"name": "Admin Panel",
+				"keypoints": "Developed a powerful dashboard for admins to oversee and control all aspects of the business operations"
+			},
+			{
+				"name": "Task & Project Management",
+				"keypoints": "Admins can assign specific tasks, projects, and schedules to employees, track progress, and manage deadlines effectively"
+			},
+			{
+				"name": "Equipment Distribution",
+				"keypoints": "Enabled systematic tracking and distribution of drilling equipment to ensure operational readiness."
+			},
+			{
+				"name": "Leave Policy Management",
+				"keypoints": "Implemented a leave management module where employees can apply for leave, and admins can review and approve them based on policy"
+			},
+			{
+				"name": "Chart & Analytics Module",
+				"keypoints": "Added visual dashboards and chart processes to help stakeholders monitor resource allocation, project progress, and employee performance"
+			}
+		],
+		"showFeatures": false
+	},
+	{
+		"name": "Evolve Air",
+		"image": "",
+		"description": "Evolve Air is an advanced e-learning platform designed to simplify and automate the management of online courses. The project provides an intuitive admin dashboard for educators to create, manage, and deliver high-quality content, and a user-friendly interface for learners to explore and engage with educational material. I was actively involved in both frontend and backend development, ensuring a seamless learning experience and robust system performance.",
+		"features": [
+			{
+				"name": "Admin Panel",
+				"keypoints": "The admin panel allows administrators to create and manage multiple courses along with their corresponding video lectures. It also provides tools to monitor enrolled users, manage test materials efficiently, and track overall course performance and individual user progress in real time"
+			},
+			{
+				"name": "User Panel",
+				"keypoints": "Users can browse and purchase available courses through an intuitive interface. Once enrolled, they can watch video lectures, take assessments, and continuously track their learning progress. Upon successful completion, the system automatically generates and issues certificates to the users."
+			},
+			{
+				"name": "Payment Integration",
+				"keypoints": "Implemented a secure and reliable transaction system by integrating Stripe via Razorpay, ensuring a fast, smooth, and fail-safe payment experience for users throughout the platform."
+			},
+			{
+				"name": "Assessment System",
+				"keypoints": "After completing course modules, users can take quizzes and tests designed to assess their understanding. The platform features an automated evaluation system that instantly reviews submissions and, upon successful performance, issues certificates without manual intervention."
+			}
+		],
+		"showFeatures": false
+	},
+	{
+		"name": "GDCC Exchange",
+		"image": "",
+		"description": "GDCC Exchange is a robust cryptocurrency exchange platform that allows administrators to create their own custom coins and integrate existing Binance coins. I contributed as a backend developer, focusing on enhancing platform security and delivering a real-time trading experience. I implemented two-factor authentication (2FA) using both email and authenticator codes to safeguard user accounts. Additionally, I integrated WebSockets for live updates and used the TradingView widget and chart libraries to provide interactive and insightful trade visualizations. The platform was developed using Vue.js for the frontend and Node.js for the backend.",
+		"features": [
+			{
+				"name": "Custom Coin Management",
+				"keypoints": "Admins can create, manage, and list their own cryptocurrencies directly on the platform."
+			},
+			{
+				"name": "Binance Integration",
+				"keypoints": "Live integration of Binance coins and trading data via real-time APIs."
+			},
+			{
+				"name": "Two-Factor Authentication (2FA)",
+				"keypoints": "Secure login process implemented using both email and authenticator app codes"
+			},
+			{
+				"name": "Real-Time Data with Sockets",
+				"keypoints": "Utilized WebSocket technology to deliver live updates for trades, prices, and market changes"
+			},
+			{
+				"name": "Interactive Trade Charts",
+				"keypoints": "Integrated TradingView widgets and other chart libraries to offer a rich, real-time graphical view of market trends and user trades"
+			}
+		],
+		"showFeatures": false
+	},
+	{
+		"name": "Raxx Staking",
+		"image": "",
+		"description": "Raxx Staking is a decentralized finance (DeFi) platform that allows users to stake their cryptocurrency with ease. I developed a wallet connectivity module to integrate MetaMask, enabling real-time deposits and withdrawals directly on the platform. By ensuring seamless blockchain interactions and optimizing both performance and security, the staking process was streamlined to offer users an efficient and secure experience. Additionally, I collaborated closely with the development team to enhance the platform’s overall functionality.",
+		"features": [
+			{
+				"name": "MetaMask Integration",
+				"keypoints": "Developed a seamless wallet connectivity module to integrate MetaMask, allowing users to interact with the platform securely"
+			},
+			{
+				"name": "Real-Time Deposit & Withdrawal",
+				"keypoints": "Enabled users to deposit and withdraw funds instantly using blockchain transactions."
+			},
+			{
+				"name": "Optimized Blockchain Interactions",
+				"keypoints": "Focused on optimizing performance and security to ensure fast, reliable, and safe blockchain interactions."
+			},
+			{
+				"name": "Efficient Staking Experience",
+				"keypoints": "Streamlined the staking process, enhancing usability and ensuring a smooth experience for users."
+			},
+			{
+				"name": "Team Collaboration",
+				"keypoints": "Worked closely with the team to further enhance the platform's features, improving functionality and user satisfaction."
+			}
+		],
+		"showFeatures": false
+	},
+	{
+		"name": "Pantrade",
+		"image": "",
+		"description": "The focus of this project is to develop a bot capable of buying, selling, and analyzing the trading market view. It includes features such as deposit and withdrawal functionalities to enhance user experience. In this project, I am contributing as a backend developer, focusing on implementing robust server-side logic and ensuring seamless operations in Node.js.",
+		"features": [
+			{
+				"name": "Automated Trading Bot",
+				"keypoints": "Developed a bot capable of analyzing market data and performing buy and sell actions based on predefined strategies"
+			},
+			{
+				"name": "Deposit & Withdrawal Functionalities",
+				"keypoints": "Integrated secure and seamless deposit and withdrawal options for users to manage their funds effectively."
+			},
+			{
+				"name": "Market Analysis",
+				"keypoints": "Implemented market analysis features to help users monitor and make informed decisions based on real-time data"
+			},
+			{
+				"name": "Robust Server-Side Logic:",
+				"keypoints": "Focused on creating reliable and scalable backend solutions to ensure smooth platform operation."
+			},
+			{
+				"name": "Seamless Operations",
+				"keypoints": "Ensured that the platform’s trading and transaction features functioned seamlessly, providing a user-friendly experience"
+			}
+		],
+		"showFeatures": false
+	},
+	{
+		"name": "Crash Game",
+		"image": "",
+		"description": "The Crash Game is a real-time multiplayer game clone where players place bets and watch a multiplier 'crash' at a random point. I developed this game using Vue.js for the frontend to create dynamic and responsive interfaces, and Node.js for the backend to handle scalability and real-time operations. I integrated WebSocket technology to ensure seamless communication between the server and clients, delivering a fluid gaming experience. The game’s logic includes features like random number generation for crash multipliers, fair play validation, and live statistics to ensure an engaging experience",
+		"features": [
+			{
+				"name": "Real-Time Multiplayer Gameplay",
+				"keypoints": "Developed a real-time multiplayer experience where users can place bets and interact with others simultaneously"
+			},
+			{
+				"name": "WebSocket Integration:",
+				"keypoints": "Enabled real-time communication for smooth gameplay and instant updates between clients and the server."
+			},
+			{
+				"name": "Random Number Generation (RNG)",
+				"keypoints": "Implemented random number generation for crash multipliers, ensuring fairness and unpredictability in the game"
+			},
+			{
+				"name": "Fair Play Validation",
+				"keypoints": "Incorporated game fairness checks to maintain transparency and trust in the game's outcomes"
+			},
+			{
+				"name": "Live Statistics & Bet History",
+				"keypoints": "Added live statistics and a bet history feature, giving players real-time insights into their bets and the overall game performance."
+			},
+			{
+				"name": "Seamless User Experience:",
+				"keypoints": "Focused on providing a smooth, responsive interface with real-time updates, enhancing user interaction and overall satisfaction"
+			},
+			{
+				"name": "Code Quality & Maintainability",
+				"keypoints": "Followed best practices for both frontend and backend development to ensure code quality, maintainability, and scalability"
+			}
+		],
+		"showFeatures": false
+	}
+]
