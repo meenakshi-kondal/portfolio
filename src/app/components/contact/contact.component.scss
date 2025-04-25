@@ -66,27 +66,36 @@
             color: var(--color-text);
 
             .info {
-                align-items: center;
+                display: flex;
+                flex-direction: column;
                 line-height: 1.9;
 
                 .content {
                     display: flex;
                     align-items: center;
+                    flex-wrap: wrap;
+                    word-break: break-word;
 
                     i {
+                        flex-shrink: 0;
                         margin-right: 15px;
                         font-size: 20px;
                         color: var(--color-primary);
                     }
+
                     &:hover i {
                         color: var(--color-secondary);
-                      }
+                    }
                 }
 
+                span {
+                    flex: 1; // Take remaining space
+                    min-width: 0; // Allow proper wrapping
+                }
 
                 .info-line {
                     border-bottom: 1px dashed #555;
-                    margin:10px 0;
+                    margin: 10px 0;
                     width: 100%
                 }
 
@@ -97,14 +106,21 @@
 
 @media (max-width: 768px) {
     .contact-layout {
-        width: 70% !important;
         z-index: 9 !important;
+        width: 85% !important;
+        padding: 20px !important;
+
+        .content {
+            flex-direction: row;
+            align-items: flex-start;
+        }
     }
+
     .yellow-dots {
         top: 70px !important;
-       
+
 
     }
 
-    
+
 }
