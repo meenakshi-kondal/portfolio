@@ -32,4 +32,5 @@ export interface EXPERIENCE_DATA {
 export interface CONTACT_DATA {
   icon: string;
   name: string;
+  link?:string;
 }

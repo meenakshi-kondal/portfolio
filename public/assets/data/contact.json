@@ -8,11 +8,18 @@
         "name": "manukondal20@gmail.com"
     },
     {
+        "icon": "bx bxs-file-pdf",
+        "name": "Download Resume",
+        "link": "assets/documents/meenakshi_full_stack_developer.pdf"
+    },
+    {
         "icon": "bx bx-globe",
-        "name": "https://meenakshi-q49g.onrender.com"
+        "name": "https://meenakshi-q49g.onrender.com",
+        "link": "https://meenakshi-q49g.onrender.com"
     },
     {
         "icon": "bx bxl-linkedin",
-        "name": "https://www.linkedin.com/in/meenakshi-devi-03b110206"
+        "name": "https://www.linkedin.com/in/meenakshi-devi-03b110206",
+        "link": "https://www.linkedin.com/in/meenakshi-devi-03b110206"
     }
 ]

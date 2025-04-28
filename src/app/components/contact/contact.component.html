@@ -9,15 +9,24 @@
     <div class="contact-layout">
 
         <div class="card">
-
             <div class="info" *ngFor="let contact of contactData">
-                <div class=" content">
-                    <i [class]='contact.icon'></i>
-                    <span>{{contact.name}}</span>
+                <div class="content">
+                  <ng-container *ngIf="contact.link; else noLink">
+                    <a [href]="contact.link" target="_blank" rel="noopener noreferrer" [attr.download]="contact.name === 'Download Resume' ? '' : null">
+                      <i [class]="contact.icon"></i>
+                      <span>{{ contact.name }}</span>
+                    </a>
+                  </ng-container>
+                  <ng-template #noLink>
+                    
+                    <i [class]="contact.icon"></i>
+                    <span>{{ contact.name }}</span>
+                  </ng-template>
                 </div>
-        
                 <div class="info-line"></div>
-            </div>
+              </div>
+              
+
         </div>
     </div>
 

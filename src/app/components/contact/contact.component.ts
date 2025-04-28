@@ -1,11 +1,11 @@
-import { NgFor } from '@angular/common';
+import { CommonModule, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
 import { DataService } from '../../services/data.service';
 import { CONTACT_DATA } from '../../interfaces/dataInterface';
 
 @Component({
   selector: 'app-contact',
-  imports: [NgFor],
+  imports: [NgFor, CommonModule],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
 })

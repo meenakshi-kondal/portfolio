@@ -76,6 +76,12 @@
                     flex-wrap: wrap;
                     word-break: break-word;
 
+                    a {
+                        color: var(--color-text);
+                        text-decoration: none;
+                    }
+
+
                     i {
                         flex-shrink: 0;
                         margin-right: 15px;
