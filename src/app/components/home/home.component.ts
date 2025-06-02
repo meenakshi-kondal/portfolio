@@ -10,7 +10,7 @@ import { NgFor } from '@angular/common';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  square = Array(25); 
+  square = Array(49); 
   developer='/assets/images/dev.png';
   homeProfile: HOME_PROFILE = {
     greeting: '',
