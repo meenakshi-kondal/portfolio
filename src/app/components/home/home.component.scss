@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 9% 40px;
+  padding: 100px 0;
   gap: 40px;
 
   .content {
@@ -13,14 +13,14 @@
     flex-direction: column;
 
     .greetings {
-      font-size: var(--text-large);
+      font-size: 80px;
       color: var(--color-muted);
       font-weight: 700;
     }
 
     .name {
-      padding-top: 10px;
-      font-size: var(--text-heading);
+      padding-top: 20px;
+      font-size: 80px;
       font-weight: 700;
       color: transparent;
       -webkit-text-stroke: 1.5px transparent;
@@ -36,10 +36,10 @@
 
     .description {
       margin-top: 40px;
-      font-size: var(--text-medium);
+      font-size: 20px;
       color: var(--color-muted);
       line-height: 1.8;
-      padding: 0 30px;
+      padding: 0 40px;
 
     }
   }

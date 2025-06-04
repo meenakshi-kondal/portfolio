@@ -1,25 +1,25 @@
-<div class="home-content content-container">
+<div class="content-container">
 
-    <div class="content">
-        <span class="greetings">
-            {{homeProfile.greeting}}
-        </span>
-        <span class="name">
-            {{homeProfile.content}}
-        </span>
-        <span class="description">
-            {{homeProfile.about}}
-        </span>
+    <div class="home-content">
 
-    </div>
-    <div class="profile">
-        <div class="grid-patch">
-            <div 
-            *ngFor="let dot of square; let i = index" 
-            class="square" 
-            [style.--delay]="(i * 0.2) + 's'">
-          </div>
-          </div>
-        <img [src]="developer" alt="profile">
+        <div class="content">
+            <span class="greetings">
+                {{homeProfile.greeting}}
+            </span>
+            <span class="name">
+                {{homeProfile.content}}
+            </span>
+            <span class="description">
+                {{homeProfile.about}}
+            </span>
+
+        </div>
+        <div class="profile">
+            <div class="grid-patch">
+                <div *ngFor="let dot of square; let i = index" class="square" [style.--delay]="(i * 0.2) + 's'">
+                </div>
+            </div>
+            <img [src]="developer" alt="profile">
+        </div>
     </div>
 </div>
