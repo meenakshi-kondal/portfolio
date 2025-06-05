@@ -25,6 +25,10 @@
             {
                 "name": "Vue.js",
                 "image": "/assets/images/vue.png"
+            },
+             {
+                "name": "Vanila",
+                "image": "/assets/images/vanila.png"
             }
         ]
     },
