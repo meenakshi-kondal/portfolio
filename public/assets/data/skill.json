@@ -65,7 +65,7 @@
                 "image": "/assets/images/mongo.png"
             },
             {
-                "name": "MySQL with Sequelize",
+                "name": "MySQL",
                 "image": "/assets/images/mysql.png"
             }
         ]
@@ -82,8 +82,16 @@
                 "image": "/assets/images/aws.png"
             },
             {
+                "name": "CI/CD",
+                "image": "/assets/images/cicd.png"
+            },
+            {
                 "name": "Nginx (Reverse Proxies & Load Balancer)",
                 "image": "/assets/images/nginx.png"
+            },
+             {
+                "name": "Grafana: Performance Monitoring (Loki)",
+                "image": "/assets/images/grafana.png"
             }
         ]
     },
@@ -105,6 +113,10 @@
             {
                 "name": "Vs Code",
                 "image": "/assets/images/vscode.png"
+            },
+             {
+                "name": "Antigravity",
+                "image": "/assets/images/antigravity.png"
             }
         ]
     }

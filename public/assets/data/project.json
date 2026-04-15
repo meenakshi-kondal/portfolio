@@ -1,5 +1,77 @@
 [
 	{
+		"name": "RERA (Real Estate Regulatory System)",
+		"image": "",
+		"description": "Designed and developed a configurable blueprint-based filing system that allows admins to dynamically create forms, define validations, and control workflows. The system supports role-based access, multi-step case filing, and a powerful dashboard for managing and automating case creation and data entry.",
+		"features": [
+			{
+				"name": "Dynamic Blueprint Form Builder",
+				"keypoints": "Built a configurable system allowing admins to create and modify forms dynamically without code changes"
+			},
+			{
+				"name": "Validation & Conditional Logic Engine",
+				"keypoints": "Implemented dynamic validations and field visibility rules based on user input and dependencies"
+			},
+			{
+				"name": "Modular Backend Architecture",
+				"keypoints": "Designed scalable APIs for field mapping, schema management, and workflow processing."
+			},
+			{
+				"name": "Role-Based Access Control (RBAC)",
+				"keypoints": "Added secure access control for admins, users, and reviewers with permission-based actions"
+			},
+			{
+				"name": "Dashboard & Table Builder",
+				"keypoints": "Developed a customizable dashboard for case tracking with dynamic table configuration and filters"
+			}
+		],
+		"showFeatures": false
+	},
+	{
+		"name": "Artemis (Company’s Core Justice Product)",
+		"image": "",
+		"description": "Implemented logical automation in the Consequences Engine, including trigger-based workflows and schedule-based actions (cron jobs). Integrated SmartODR-based payloads with multiple dynamic fields conditional logic, and layered validations. Added Grafana logs with Loki agent to debug the functionality in server",
+		"features": [
+			{
+				"name": "Consequences Engine Automation",
+				"keypoints": "Implemented logic-based automation system with trigger-based workflows and scheduled actions using cron jobs"
+			},
+			{
+				"name": "SmartODR Payload Processing",
+				"keypoints": "Integrated SmartODR-based payloads supporting multiple dynamic fields, conditional logic, and layered validations"
+			},
+			{
+				"name": "Logging & Debugging System (Grafana + Loki)",
+				"keypoints": "Integrated Grafana dashboards with Loki agent for centralized logging and efficient debugging on the server"
+			}
+		],
+		"showFeatures": false
+	},
+	{
+		"name": "High Court",
+		"image": "",
+		"description": "Developed a bundle management module for a High Court project to handle multiple PDF files efficiently. Implemented features to generate dynamic indexes within each file, merge documents into a single bundle, and automatically create a master index page with consistent page numbering for better organization and navigation.",
+		"features": [
+			{
+				"name": "Multi-PDF Bundle Handling",
+				"keypoints": "Developed a module to efficiently manage and organize multiple PDF files within a single system"
+			},
+			{
+				"name": "Document Merging System",
+				"keypoints": "Implemented functionality to merge multiple PDFs into a single structured bundle for streamlined processing"
+			},
+			{
+				"name": "Dynamic Index Generation",
+				"keypoints": "Created dynamic index pages for each file to improve document navigation and structure"
+			},
+			{
+				"name": "Master Index Page Creation",
+				"keypoints": "Automatically generated a unified master index with consistent page numbering across all documents for enhanced organization and accessibility"
+			}
+		],
+		"showFeatures": false
+	},
+	{
 		"name": "Authentic Drilling",
 		"image": "",
 		"description": "Authentic Drilling is a comprehensive drilling management platform designed for a US-based client. I led the complete development lifecycle and played a key role in both frontend and backend implementation. The system includes a fully functional admin panel that allows administrators to manage employees, equipment, projects, and internal operations efficiently.",
