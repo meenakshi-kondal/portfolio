@@ -10,7 +10,7 @@ import { CONTACT_DATA } from '../../interfaces/dataInterface';
   styleUrl: './contact.component.scss'
 })
 export class ContactComponent {
-  dots = Array(60); 
+
   contactData:CONTACT_DATA[] =[];
 
   constructor(private dataService: DataService    ) {}
